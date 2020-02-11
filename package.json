@@ -4,7 +4,7 @@
   "description": "Le code de ce site est hébergé sur Github. A chaque commit sur la branch master, le déploiement du site statique est effectué par Netlify. Le build se fait avec Parcel Bundler que j'adore pour sa simplicité.",
   "main": "app.js",
   "scripts": {
-    "build": "npm install -y && parcel build index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
