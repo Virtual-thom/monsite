@@ -1,2 +1,2 @@
 # A propos de ce site
- 
+ Le code de ce site est hébergé sur Github. A chaque commit sur la branch master, le déploiement du site statique est effectué par Netlify. Le build se fait avec Parcel Bundler que j'adore pour sa simplicité. 
