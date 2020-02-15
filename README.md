@@ -1,9 +1,11 @@
-# A propos de ce site
-Le code de ce site est hébergé sur Github. A chaque commit sur la branch de mon choix (master), le déploiement du site statique est effectué par Netlify. Le build se fait avec Parcel Bundler que j'adore pour sa simplicité.
-A petite échelle, c'est un peu ce qu'on appelle du déploiement continu. 
+# A propos
+---
+Petit exemple de site : [https://thomax.netlify.com/](https://thomax.netlify.com/). Le code de ce site est hébergé sur Github [monsite](https://github.com/thomas-asnar/monsite). A chaque commit sur la branch de mon choix (master), le déploiement du site statique est effectué par [Netlify](https://netlify.com). Le build se fait avec [Parcel Bundler](https://parceljs.org/) que j'adore pour sa simplicité.
+A petite échelle, c'est ce qu'on appelle du déploiement continu. 
 
-J'ai outrageusement pompé l'idée et la façon de faire de Ryan Dahl (juste le développeur de NodeJS qui planche en ce moment sur le successeur de son bébé : Deno. Le site [deno.land](https://deno.land) utilise à peu près le même principe de déploiement, au Cloudflare worker près - qui lui sert à présenter du code raw brut selon si on a un header navigateur ou si c'est un appel API par ex - et son front qui est codé en React)
+J'ai outrageusement pompé l'idée et la façon de faire de Ryan Dahl (juste le développeur de NodeJS qui planche en ce moment sur le successeur de son bébé : Deno. Le site [deno.land](https://deno.land) utilise à peu près le même principe de déploiement, au Cloudflare worker près - qui lui sert à présenter de l'html ou du code raw brut selon si on a un header navigateur ou si c'est un appel API par ex - et son front qui est codé en React)
 
+<!--more-->
 # Prix
 Netlify est Gratuit pour sa version de base. C'est un peu fou mais pas plus qu'un site perso en Jekyll sur Github après tout. (truc complètement fou aussi mais qui n'a rien à voir : Gefoce Now est gratuit aussi pour sa version de base et permet de jouer en ligne avec leur puissance compute et graphique, à vos jeux steam par ex, 0 download, c'est fou. Je ne sais même pas comment c'est possible. J'imagine les coûts d'une telle infra' : vpn, compute, GPU, hébergement des images de jeux, etc)
 
